@@ -1,0 +1,49 @@
+7.  1 - 2 + 3 * 4 - 6 / 3 + 5
+    1 - 2 + 3 4 * - 6 3 / + 5
+    1 2 - + 3 4 * - 6 3 / + 5
+    1 2 - 3 4 * + - 6 3 / + 5
+    1 2 - 3 4 * + 6 3 / - + 5
+    1 2 - 3 4 * + 6 3 / - 5 +
+   
+8.
+Queue: 1 2 - 3 4 * + 6 3 / - 5 +
+Stack: 
+
+Queue: 2 - 3 4 * + 6 3 / - 5 +
+Stack: 1
+
+Queue: - 3 4 * + 6 3 / - 5 +
+Stack: 2 1
+
+Queue: 3 4 * + 6 3 / - 5 +
+Stack: -1
+
+Queue: 4 * + 6 3 / - 5 +
+Stack: 3 -1
+
+Queue: * + 6 3 / - 5 +
+Stack: 4 3 -1
+
+Queue: + 6 3 / - 5 +
+Stack: 12 -1
+
+Queue: 11
+Stack: 6 3 / - 5 +
+
+Queue: 3 / - 5 +
+Stack: 6 11
+
+Queue: / - 5 +
+Stack: 3 6 11
+
+Queue: - 5 +
+Stack: 2 11
+
+Queue: 5 +
+Stack: 9
+
+Queue: +
+Stack 5 9
+
+Queue:
+Stack 14
