@@ -1,0 +1,22 @@
+three discs
+
+one to three
+one to two
+three to two
+one to three
+two to one
+two to three
+one to three
+
+
+five discs
+
+one to three
+one to two
+three to two
+one to three
+two to one
+two to three
+one to three
+one to two
+three to two

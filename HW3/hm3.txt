@@ -1,0 +1,31 @@
+1.
+
+a) 15
+
+b) 55
+
+c) 0
+
+d) it goes on forever or until it reaches the max size of int
+
+
+
+2.
+
+a) F takes a number, n, that will multiply itself to n minus one until n equals 0 then it returns 0. The with an positive n number the result will always be 0
+
+b) F takes two numbers, x and n, x is not used and is just an extra variable. F takes n and adds it to n minus one until n equals 0, then it returns 0. It results in the sum of n and every positive integer below it.
+
+c) F takes a number, n, and when n >= 2 it adds one to the end result and divides n by 2 until n < 2 where it returns 0. The end result is how many times n could be divided by 2 and be greater or equal to 2.
+
+d) F takes a number, n, and as long as n != 0 it adds the digit in the ones place to the end result and divides n by 10. The end result is the sum of each individual digit eg: 123 will return 6
+
+e) F takes a number, n, and if n is greater 10 it divides it by 10, if n less 10 but greater than or equal to 0 it returns itself, n, if n is less than 0 it returns the positive value of n. The result of this function is if it is greater than 10 it returns the most significant digit, if it is less than 10 it returns itself, if it is less than 0 it returns postive n.
+
+
+
+3. 31 moves
+
+
+
+4.
