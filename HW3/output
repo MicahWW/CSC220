@@ -1,0 +1,1447 @@
+       Preorder: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 
+        Inorder: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 
+      Postorder: Z Y X W V U T S R Q P O N M L K J I H G F E D C B A 
+Reverse Inorder: Z Y X W V U T S R Q P O N M L K J I H G F E D C B A 
+																									Z
+																								Y
+																							X
+																						W
+																					V
+																				U
+																			T
+																		S
+																	R
+																Q
+															P
+														O
+													N
+												M
+											L
+										K
+									J
+								I
+							H
+						G
+					F
+				E
+			D
+		C
+	B
+A
+
+Removing Z:
+																								Y
+																							X
+																						W
+																					V
+																				U
+																			T
+																		S
+																	R
+																Q
+															P
+														O
+													N
+												M
+											L
+										K
+									J
+								I
+							H
+						G
+					F
+				E
+			D
+		C
+	B
+A
+
+Removing Y:
+																							X
+																						W
+																					V
+																				U
+																			T
+																		S
+																	R
+																Q
+															P
+														O
+													N
+												M
+											L
+										K
+									J
+								I
+							H
+						G
+					F
+				E
+			D
+		C
+	B
+A
+
+Removing X:
+																						W
+																					V
+																				U
+																			T
+																		S
+																	R
+																Q
+															P
+														O
+													N
+												M
+											L
+										K
+									J
+								I
+							H
+						G
+					F
+				E
+			D
+		C
+	B
+A
+
+Removing W:
+																					V
+																				U
+																			T
+																		S
+																	R
+																Q
+															P
+														O
+													N
+												M
+											L
+										K
+									J
+								I
+							H
+						G
+					F
+				E
+			D
+		C
+	B
+A
+
+Removing V:
+																				U
+																			T
+																		S
+																	R
+																Q
+															P
+														O
+													N
+												M
+											L
+										K
+									J
+								I
+							H
+						G
+					F
+				E
+			D
+		C
+	B
+A
+
+Removing U:
+																			T
+																		S
+																	R
+																Q
+															P
+														O
+													N
+												M
+											L
+										K
+									J
+								I
+							H
+						G
+					F
+				E
+			D
+		C
+	B
+A
+
+Removing T:
+																		S
+																	R
+																Q
+															P
+														O
+													N
+												M
+											L
+										K
+									J
+								I
+							H
+						G
+					F
+				E
+			D
+		C
+	B
+A
+
+Removing S:
+																	R
+																Q
+															P
+														O
+													N
+												M
+											L
+										K
+									J
+								I
+							H
+						G
+					F
+				E
+			D
+		C
+	B
+A
+
+Removing R:
+																Q
+															P
+														O
+													N
+												M
+											L
+										K
+									J
+								I
+							H
+						G
+					F
+				E
+			D
+		C
+	B
+A
+
+Removing Q:
+															P
+														O
+													N
+												M
+											L
+										K
+									J
+								I
+							H
+						G
+					F
+				E
+			D
+		C
+	B
+A
+
+Removing P:
+														O
+													N
+												M
+											L
+										K
+									J
+								I
+							H
+						G
+					F
+				E
+			D
+		C
+	B
+A
+
+Removing O:
+													N
+												M
+											L
+										K
+									J
+								I
+							H
+						G
+					F
+				E
+			D
+		C
+	B
+A
+
+Removing N:
+												M
+											L
+										K
+									J
+								I
+							H
+						G
+					F
+				E
+			D
+		C
+	B
+A
+
+Removing M:
+											L
+										K
+									J
+								I
+							H
+						G
+					F
+				E
+			D
+		C
+	B
+A
+
+Removing L:
+										K
+									J
+								I
+							H
+						G
+					F
+				E
+			D
+		C
+	B
+A
+
+Removing K:
+									J
+								I
+							H
+						G
+					F
+				E
+			D
+		C
+	B
+A
+
+Removing J:
+								I
+							H
+						G
+					F
+				E
+			D
+		C
+	B
+A
+
+Removing I:
+							H
+						G
+					F
+				E
+			D
+		C
+	B
+A
+
+Removing H:
+						G
+					F
+				E
+			D
+		C
+	B
+A
+
+Removing G:
+					F
+				E
+			D
+		C
+	B
+A
+
+Removing F:
+				E
+			D
+		C
+	B
+A
+
+Removing E:
+			D
+		C
+	B
+A
+
+Removing D:
+		C
+	B
+A
+
+Removing C:
+	B
+A
+
+Removing B:
+A
+
+Removing A:
+       Preorder: 9 8 7 6 5 4 3 2 1 0 
+        Inorder: 0 1 2 3 4 5 6 7 8 9 
+      Postorder: 0 1 2 3 4 5 6 7 8 9 
+Reverse Inorder: 9 8 7 6 5 4 3 2 1 0 
+9
+	8
+		7
+			6
+				5
+					4
+						3
+							2
+								1
+									0
+
+Removing 0:
+9
+	8
+		7
+			6
+				5
+					4
+						3
+							2
+								1
+
+Removing 1:
+9
+	8
+		7
+			6
+				5
+					4
+						3
+							2
+
+Removing 2:
+9
+	8
+		7
+			6
+				5
+					4
+						3
+
+Removing 3:
+9
+	8
+		7
+			6
+				5
+					4
+
+Removing 4:
+9
+	8
+		7
+			6
+				5
+
+Removing 5:
+9
+	8
+		7
+			6
+
+Removing 6:
+9
+	8
+		7
+
+Removing 7:
+9
+	8
+
+Removing 8:
+9
+
+Removing 9:
+       Preorder: M F C A B D E J H G I K L T P N O R Q S W U V Y X Z 
+        Inorder: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 
+      Postorder: B A E D C G I H L K J F O N Q S R P V U X Z Y W T M 
+Reverse Inorder: Z Y X W V U T S R Q P O N M L K J I H G F E D C B A 
+				Z
+			Y
+				X
+		W
+				V
+			U
+	T
+				S
+			R
+				Q
+		P
+				O
+			N
+M
+				L
+			K
+		J
+				I
+			H
+				G
+	F
+				E
+			D
+		C
+				B
+			A
+
+Removing Z:
+			Y
+				X
+		W
+				V
+			U
+	T
+				S
+			R
+				Q
+		P
+				O
+			N
+M
+				L
+			K
+		J
+				I
+			H
+				G
+	F
+				E
+			D
+		C
+				B
+			A
+
+Removing X:
+			Y
+		W
+				V
+			U
+	T
+				S
+			R
+				Q
+		P
+				O
+			N
+M
+				L
+			K
+		J
+				I
+			H
+				G
+	F
+				E
+			D
+		C
+				B
+			A
+
+Removing Y:
+		W
+				V
+			U
+	T
+				S
+			R
+				Q
+		P
+				O
+			N
+M
+				L
+			K
+		J
+				I
+			H
+				G
+	F
+				E
+			D
+		C
+				B
+			A
+
+Removing V:
+		W
+			U
+	T
+				S
+			R
+				Q
+		P
+				O
+			N
+M
+				L
+			K
+		J
+				I
+			H
+				G
+	F
+				E
+			D
+		C
+				B
+			A
+
+Removing U:
+		W
+	T
+				S
+			R
+				Q
+		P
+				O
+			N
+M
+				L
+			K
+		J
+				I
+			H
+				G
+	F
+				E
+			D
+		C
+				B
+			A
+
+Removing W:
+	T
+				S
+			R
+				Q
+		P
+				O
+			N
+M
+				L
+			K
+		J
+				I
+			H
+				G
+	F
+				E
+			D
+		C
+				B
+			A
+
+Removing Q:
+	T
+				S
+			R
+		P
+				O
+			N
+M
+				L
+			K
+		J
+				I
+			H
+				G
+	F
+				E
+			D
+		C
+				B
+			A
+
+Removing S:
+	T
+			R
+		P
+				O
+			N
+M
+				L
+			K
+		J
+				I
+			H
+				G
+	F
+				E
+			D
+		C
+				B
+			A
+
+Removing R:
+	T
+		P
+				O
+			N
+M
+				L
+			K
+		J
+				I
+			H
+				G
+	F
+				E
+			D
+		C
+				B
+			A
+
+Removing O:
+	T
+		P
+			N
+M
+				L
+			K
+		J
+				I
+			H
+				G
+	F
+				E
+			D
+		C
+				B
+			A
+
+Removing N:
+	T
+		P
+M
+				L
+			K
+		J
+				I
+			H
+				G
+	F
+				E
+			D
+		C
+				B
+			A
+
+Removing P:
+	T
+M
+				L
+			K
+		J
+				I
+			H
+				G
+	F
+				E
+			D
+		C
+				B
+			A
+
+Removing T:
+M
+				L
+			K
+		J
+				I
+			H
+				G
+	F
+				E
+			D
+		C
+				B
+			A
+
+Removing L:
+M
+			K
+		J
+				I
+			H
+				G
+	F
+				E
+			D
+		C
+				B
+			A
+
+Removing K:
+M
+		J
+				I
+			H
+				G
+	F
+				E
+			D
+		C
+				B
+			A
+
+Removing I:
+M
+		J
+			H
+				G
+	F
+				E
+			D
+		C
+				B
+			A
+
+Removing G:
+M
+		J
+			H
+	F
+				E
+			D
+		C
+				B
+			A
+
+Removing H:
+M
+		J
+	F
+				E
+			D
+		C
+				B
+			A
+
+Removing E:
+M
+		J
+	F
+			D
+		C
+				B
+			A
+
+Removing D:
+M
+		J
+	F
+		C
+				B
+			A
+
+Removing B:
+M
+		J
+	F
+		C
+			A
+
+Removing A:
+M
+		J
+	F
+		C
+
+Removing J:
+M
+	F
+		C
+
+Removing C:
+M
+	F
+
+Removing F:
+M
+
+Removing M:
+       Preorder: S P H C A E I N R T Y W 
+        Inorder: A C E H I N P R S T W Y 
+      Postorder: A E C N I H R P W Y T S 
+Reverse Inorder: Y W T S R P N I H E C A 
+		Y
+			W
+	T
+S
+		R
+	P
+				N
+			I
+		H
+				E
+			C
+				A
+
+Removing T:
+	Y
+		W
+S
+		R
+	P
+				N
+			I
+		H
+				E
+			C
+				A
+
+Removing A:
+	Y
+		W
+S
+		R
+	P
+				N
+			I
+		H
+				E
+			C
+
+Removing H:
+	Y
+		W
+S
+		R
+	P
+			N
+		I
+				E
+			C
+
+Removing W:
+	Y
+S
+		R
+	P
+			N
+		I
+				E
+			C
+
+Removing S:
+Y
+		R
+	P
+			N
+		I
+				E
+			C
+
+Removing Y:
+	R
+P
+		N
+	I
+			E
+		C
+
+Removing A:
+	R
+P
+		N
+	I
+			E
+		C
+
+Removing S:
+	R
+P
+		N
+	I
+			E
+		C
+
+Removing R:
+P
+		N
+	I
+			E
+		C
+
+Removing E:
+P
+		N
+	I
+		C
+
+Removing T:
+P
+		N
+	I
+		C
+
+Removing C:
+P
+		N
+	I
+
+Removing N:
+P
+	I
+
+Removing I:
+P
+
+Removing H:
+P
+
+Removing P:
+
+Removing S:
+       Preorder: 5 2 1 4 3 7 6 9 8 
+        Inorder: 1 2 3 4 5 6 7 8 9 
+      Postorder: 1 3 4 2 6 8 9 7 5 
+Reverse Inorder: 9 8 7 6 5 4 3 2 1 
+		9
+			8
+	7
+		6
+5
+		4
+			3
+	2
+		1
+
+Removing 8:
+		9
+	7
+		6
+5
+		4
+			3
+	2
+		1
+
+Removing 6:
+		9
+	7
+5
+		4
+			3
+	2
+		1
+
+Removing 9:
+	7
+5
+		4
+			3
+	2
+		1
+
+Removing 7:
+5
+		4
+			3
+	2
+		1
+
+Removing 3:
+5
+		4
+	2
+		1
+
+Removing 1:
+5
+		4
+	2
+
+Removing 4:
+5
+	2
+
+Removing 2:
+5
+
+Removing 5:
+       Preorder: M A L T S O 
+        Inorder: A L M O S T 
+      Postorder: L A O S T M 
+Reverse Inorder: T S O M L A 
+	T
+		S
+			O
+M
+		L
+	A
+
+Removing O:
+	T
+		S
+M
+		L
+	A
+
+Removing S:
+	T
+M
+		L
+	A
+
+Removing L:
+	T
+M
+	A
+
+Removing T:
+M
+	A
+
+Removing A:
+M
+
+Removing M:
+       Preorder: F E T R O 
+        Inorder: E F O R T 
+      Postorder: E O R T F 
+Reverse Inorder: T R O F E 
+	T
+		R
+			O
+F
+	E
+
+Removing O:
+	T
+		R
+F
+	E
+
+Removing F:
+	T
+R
+	E
+
+Removing R:
+T
+	E
+
+Removing E:
+T
+
+Removing T:
+
+Removing F:
+       Preorder: E B Y L I F 
+        Inorder: B E F I L Y 
+      Postorder: B F I L Y E 
+Reverse Inorder: Y L I F E B 
+	Y
+		L
+			I
+				F
+E
+	B
+
+Removing F:
+	Y
+		L
+			I
+E
+	B
+
+Removing I:
+	Y
+		L
+E
+	B
+
+Removing E:
+	Y
+L
+	B
+
+Removing L:
+Y
+	B
+
+Removing B:
+Y
+
+Removing Y:
+
+Removing E:
+       Preorder: L B I Y W O 
+        Inorder: B I L O W Y 
+      Postorder: I B O W Y L 
+Reverse Inorder: Y W O L I B 
+	Y
+		W
+			O
+L
+		I
+	B
+
+Removing L:
+	Y
+		W
+O
+		I
+	B
+
+Removing O:
+	Y
+W
+		I
+	B
+
+Removing I:
+	Y
+W
+	B
+
+Removing W:
+Y
+	B
+
+Removing B:
+Y
+
+Removing Y:
+
+Removing L:
+       Preorder: S G H O Y T 
+        Inorder: G H O S T Y 
+      Postorder: O H G T Y S 
+Reverse Inorder: Y T S O H G 
+	Y
+		T
+S
+			O
+		H
+	G
+
+Removing O:
+	Y
+		T
+S
+		H
+	G
+
+Removing H:
+	Y
+		T
+S
+	G
+
+Removing T:
+	Y
+S
+	G
+
+Removing G:
+	Y
+S
+
+Removing Y:
+S
+
+Removing S:
+       Preorder: F E D P N O S 
+        Inorder: D E F N O P S 
+      Postorder: D E O N S P F 
+Reverse Inorder: S P O N F E D 
+		S
+	P
+			O
+		N
+F
+	E
+		D
+
+Removing O:
+		S
+	P
+		N
+F
+	E
+		D
+
+Removing S:
+	P
+		N
+F
+	E
+		D
+
+Removing E:
+	P
+		N
+F
+	D
+
+Removing D:
+	P
+		N
+F
+
+Removing E:
+	P
+		N
+F
+
+Removing O:
+	P
+		N
+F
+
+Removing N:
+	P
+F
+
+Removing P:
+F
+
+Removing F:
+       Preorder: L D E I T R O 
+        Inorder: D E I L O R T 
+      Postorder: I E D O R T L 
+Reverse Inorder: T R O L I E D 
+	T
+		R
+			O
+L
+			I
+		E
+	D
+
+Removing I:
+	T
+		R
+			O
+L
+		E
+	D
+
+Removing O:
+	T
+		R
+L
+		E
+	D
+
+Removing E:
+	T
+		R
+L
+	D
+
+Removing R:
+	T
+L
+	D
+
+Removing D:
+	T
+L
+
+Removing T:
+L
+
+Removing L:
+
+Removing L:
+       Preorder: 7 3 1 2 4 9 8 A B 
+        Inorder: 1 2 3 4 7 8 9 A B 
+      Postorder: 2 1 4 3 8 B A 9 7 
+Reverse Inorder: B A 9 8 7 4 3 2 1 
+			B
+		A
+	9
+		8
+7
+		4
+	3
+			2
+		1
+
+Removing 2:
+			B
+		A
+	9
+		8
+7
+		4
+	3
+		1
+
+Removing 1:
+			B
+		A
+	9
+		8
+7
+		4
+	3
+
+Removing 8:
+			B
+		A
+	9
+7
+		4
+	3
+
+Removing B:
+		A
+	9
+7
+		4
+	3
+
+Removing A:
+	9
+7
+		4
+	3
+
+Removing 9:
+7
+		4
+	3
+
+Removing 4:
+7
+	3
+
+Removing 3:
+7
+
+Removing 7:
