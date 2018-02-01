@@ -1,3 +1,4 @@
+import time
 #def hanoi(n, source, helper, target):
 #	if n > 0:
 		# move tower of size n - 1 to helper:
@@ -27,6 +28,16 @@ def Hanoi(n, src, dst, tmp):
 discs = raw_input("How many discs? ")
 discs = int(discs)
 
-Hanoi(discs, 0, 2, 1)
+try:
+	start = time.time()
+	Hanoi(discs, 0, 2, 1)
+	end = time. time()
 
-print count
+	print count
+	print " "
+	print end - start
+except:
+	print count
+	end = time.time()
+	print " "
+	print end - start
