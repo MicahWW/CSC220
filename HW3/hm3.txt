@@ -27,5 +27,31 @@ e) F takes a number, n, and if n is greater 10 it divides it by 10, if n less 10
 3. 31 moves
 
 
+4. 1,267,650,600,228,229,401,496,703,205,375 seconds or 40,196,936,841,331,475,186.983232032439 millennia
 
-4.
+
+5.
+
+a)
+Move disc 1 From tower 0 to tower 1
+Move disc 2 From tower 0 to tower 2
+Move disc 1 From tower 1 to tower 2
+
+b)
+Move disc 1 From tower 0 to tower 1
+Move disc 2 From tower 0 to tower 2
+Move disc 1 From tower 1 to tower 2
+
+c)
+Move disc 1 From tower 0 to tower 1
+Move disc 2 From tower 0 to tower 2
+Move disc 1 From tower 1 to tower 2
+
+d)
+Move disc 1 From tower 0 to tower 1
+Move disc 2 From tower 0 to tower 2
+Move disc 1 From tower 1 to tower 2
+
+e)
+O(2^n)
+
