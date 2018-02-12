@@ -65,7 +65,7 @@ public class BinaryTree {
 		TreeNode newNode = new TreeNode();
 		newNode.setData(data);		
 		
-		if (root == null) {
+		if (getRoot() == null) {
 			setRoot(newNode);
 		} else {
 			TreeNode current = getRoot();
@@ -74,8 +74,9 @@ public class BinaryTree {
 			
 			while(cont) {
 				parent = current;
-				
-				if (data < current.getData()) {
+				if (data == current.getData()) {
+					cont = false;
+				} else if (data < current.getData()) {
 					current = current.getLeft();
 					
 					if (current == null) {
@@ -92,12 +93,90 @@ public class BinaryTree {
 				}
 			}
 		}
-			
 		num_nodes += 1;
 	}
 	
 	public void delete(char data) {
+		TreeNode current = getRoot();
+		TreeNode parent = getRoot();
+		boolean leftChild = true;
 		
+		if (current != null) {
+		
+			while (current.getData() != data) {
+				parent = current;
+				
+				if (data < current.getData()) {
+					leftChild = true;
+					current = current.getLeft();
+				} else {
+					current = current.getRight();
+					leftChild = false;
+				}
+				
+				if (current == null) {
+					return;
+				}
+			}
+			
+			if (current.getLeft() == null && current.getRight() == null) {
+				if (current == getRoot()) {
+					setRoot(null);
+				} else if (leftChild) {
+					parent.setLeft(null);
+				} else {
+					parent.setRight(null);
+				}
+				//System.out.println("Dang1");
+				
+			} else if (current.getRight() == null) {
+				if (current == getRoot()) {
+					setRoot(current.getLeft());
+				} else if (leftChild) {
+					parent.setLeft(current.getLeft());
+				} else {
+					parent.setRight(current.getLeft());
+				}
+				//System.out.println("Dang2");
+				
+			} else if (current.getLeft() == null) {
+				if (current == getRoot()) {
+					setRoot(current.getRight());
+				} else if (leftChild) {
+					parent.setLeft(current.getRight());
+				} else {
+					parent.setRight(current.getRight());
+				}
+				//System.out.println("Dang3");
+				
+			} else {
+				//System.out.println("Dang4");
+				TreeNode replaceParent = current;
+				TreeNode replace = current;
+				TreeNode focus = current.getRight();
+				
+				while (focus != null) {
+					replaceParent = replace;
+					replace = focus;
+					focus = focus.getLeft();
+				}
+				
+				if (replace != current.getRight()) {
+					replaceParent.setLeft(replace.getRight());
+					replace.setRight(current.getRight());
+				}
+				
+				if (current == getRoot()) {
+					setRoot(replace);
+				} else if (leftChild) {
+					parent.setLeft(replace);
+				} else {
+					parent.setRight(replace);
+				}
+				replace.setLeft(current.getLeft());
+			}
+			num_nodes -= 1;
+		}
 	}
 	
 	public char getMax() {

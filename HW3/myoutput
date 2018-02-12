@@ -1,7 +1,7 @@
        Preorder: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 
         Inorder: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 
-      Postorder: B C D E F G H I J K L M N O P Q R S T U V W X Y Z A 
-Reverse Inorder: 
+      Postorder: Z Y X W V U T S R Q P O N M L K J I H G F E D C B A 
+Reverse Inorder: Z Y X W V U T S R Q P O N M L K J I H G F E D C B A 
 																									Z
 																								Y
 																							X
@@ -30,7 +30,6 @@ Reverse Inorder:
 A
 
 Removing Z:
-																									Z
 																								Y
 																							X
 																						W
@@ -58,8 +57,6 @@ Removing Z:
 A
 
 Removing Y:
-																									Z
-																								Y
 																							X
 																						W
 																					V
@@ -86,9 +83,6 @@ Removing Y:
 A
 
 Removing X:
-																									Z
-																								Y
-																							X
 																						W
 																					V
 																				U
@@ -114,10 +108,6 @@ Removing X:
 A
 
 Removing W:
-																									Z
-																								Y
-																							X
-																						W
 																					V
 																				U
 																			T
@@ -142,11 +132,6 @@ Removing W:
 A
 
 Removing V:
-																									Z
-																								Y
-																							X
-																						W
-																					V
 																				U
 																			T
 																		S
@@ -170,12 +155,6 @@ Removing V:
 A
 
 Removing U:
-																									Z
-																								Y
-																							X
-																						W
-																					V
-																				U
 																			T
 																		S
 																	R
@@ -198,13 +177,6 @@ Removing U:
 A
 
 Removing T:
-																									Z
-																								Y
-																							X
-																						W
-																					V
-																				U
-																			T
 																		S
 																	R
 																Q
@@ -226,14 +198,6 @@ Removing T:
 A
 
 Removing S:
-																									Z
-																								Y
-																							X
-																						W
-																					V
-																				U
-																			T
-																		S
 																	R
 																Q
 															P
@@ -254,15 +218,6 @@ Removing S:
 A
 
 Removing R:
-																									Z
-																								Y
-																							X
-																						W
-																					V
-																				U
-																			T
-																		S
-																	R
 																Q
 															P
 														O
@@ -282,16 +237,6 @@ Removing R:
 A
 
 Removing Q:
-																									Z
-																								Y
-																							X
-																						W
-																					V
-																				U
-																			T
-																		S
-																	R
-																Q
 															P
 														O
 													N
@@ -310,17 +255,6 @@ Removing Q:
 A
 
 Removing P:
-																									Z
-																								Y
-																							X
-																						W
-																					V
-																				U
-																			T
-																		S
-																	R
-																Q
-															P
 														O
 													N
 												M
@@ -338,18 +272,6 @@ Removing P:
 A
 
 Removing O:
-																									Z
-																								Y
-																							X
-																						W
-																					V
-																				U
-																			T
-																		S
-																	R
-																Q
-															P
-														O
 													N
 												M
 											L
@@ -366,19 +288,6 @@ Removing O:
 A
 
 Removing N:
-																									Z
-																								Y
-																							X
-																						W
-																					V
-																				U
-																			T
-																		S
-																	R
-																Q
-															P
-														O
-													N
 												M
 											L
 										K
@@ -394,20 +303,6 @@ Removing N:
 A
 
 Removing M:
-																									Z
-																								Y
-																							X
-																						W
-																					V
-																				U
-																			T
-																		S
-																	R
-																Q
-															P
-														O
-													N
-												M
 											L
 										K
 									J
@@ -422,21 +317,6 @@ Removing M:
 A
 
 Removing L:
-																									Z
-																								Y
-																							X
-																						W
-																					V
-																				U
-																			T
-																		S
-																	R
-																Q
-															P
-														O
-													N
-												M
-											L
 										K
 									J
 								I
@@ -450,22 +330,6 @@ Removing L:
 A
 
 Removing K:
-																									Z
-																								Y
-																							X
-																						W
-																					V
-																				U
-																			T
-																		S
-																	R
-																Q
-															P
-														O
-													N
-												M
-											L
-										K
 									J
 								I
 							H
@@ -478,23 +342,6 @@ Removing K:
 A
 
 Removing J:
-																									Z
-																								Y
-																							X
-																						W
-																					V
-																				U
-																			T
-																		S
-																	R
-																Q
-															P
-														O
-													N
-												M
-											L
-										K
-									J
 								I
 							H
 						G
@@ -506,24 +353,6 @@ Removing J:
 A
 
 Removing I:
-																									Z
-																								Y
-																							X
-																						W
-																					V
-																				U
-																			T
-																		S
-																	R
-																Q
-															P
-														O
-													N
-												M
-											L
-										K
-									J
-								I
 							H
 						G
 					F
@@ -534,25 +363,6 @@ Removing I:
 A
 
 Removing H:
-																									Z
-																								Y
-																							X
-																						W
-																					V
-																				U
-																			T
-																		S
-																	R
-																Q
-															P
-														O
-													N
-												M
-											L
-										K
-									J
-								I
-							H
 						G
 					F
 				E
@@ -562,26 +372,6 @@ Removing H:
 A
 
 Removing G:
-																									Z
-																								Y
-																							X
-																						W
-																					V
-																				U
-																			T
-																		S
-																	R
-																Q
-															P
-														O
-													N
-												M
-											L
-										K
-									J
-								I
-							H
-						G
 					F
 				E
 			D
@@ -590,27 +380,6 @@ Removing G:
 A
 
 Removing F:
-																									Z
-																								Y
-																							X
-																						W
-																					V
-																				U
-																			T
-																		S
-																	R
-																Q
-															P
-														O
-													N
-												M
-											L
-										K
-									J
-								I
-							H
-						G
-					F
 				E
 			D
 		C
@@ -618,148 +387,28 @@ Removing F:
 A
 
 Removing E:
-																									Z
-																								Y
-																							X
-																						W
-																					V
-																				U
-																			T
-																		S
-																	R
-																Q
-															P
-														O
-													N
-												M
-											L
-										K
-									J
-								I
-							H
-						G
-					F
-				E
 			D
 		C
 	B
 A
 
 Removing D:
-																									Z
-																								Y
-																							X
-																						W
-																					V
-																				U
-																			T
-																		S
-																	R
-																Q
-															P
-														O
-													N
-												M
-											L
-										K
-									J
-								I
-							H
-						G
-					F
-				E
-			D
 		C
 	B
 A
 
 Removing C:
-																									Z
-																								Y
-																							X
-																						W
-																					V
-																				U
-																			T
-																		S
-																	R
-																Q
-															P
-														O
-													N
-												M
-											L
-										K
-									J
-								I
-							H
-						G
-					F
-				E
-			D
-		C
 	B
 A
 
 Removing B:
-																									Z
-																								Y
-																							X
-																						W
-																					V
-																				U
-																			T
-																		S
-																	R
-																Q
-															P
-														O
-													N
-												M
-											L
-										K
-									J
-								I
-							H
-						G
-					F
-				E
-			D
-		C
-	B
 A
 
 Removing A:
-																									Z
-																								Y
-																							X
-																						W
-																					V
-																				U
-																			T
-																		S
-																	R
-																Q
-															P
-														O
-													N
-												M
-											L
-										K
-									J
-								I
-							H
-						G
-					F
-				E
-			D
-		C
-	B
-A
        Preorder: 9 8 7 6 5 4 3 2 1 0 
         Inorder: 0 1 2 3 4 5 6 7 8 9 
       Postorder: 0 1 2 3 4 5 6 7 8 9 
-Reverse Inorder: 
+Reverse Inorder: 9 8 7 6 5 4 3 2 1 0 
 9
 	8
 		7
@@ -781,7 +430,6 @@ Removing 0:
 						3
 							2
 								1
-									0
 
 Removing 1:
 9
@@ -792,8 +440,6 @@ Removing 1:
 					4
 						3
 							2
-								1
-									0
 
 Removing 2:
 9
@@ -803,9 +449,6 @@ Removing 2:
 				5
 					4
 						3
-							2
-								1
-									0
 
 Removing 3:
 9
@@ -814,10 +457,6 @@ Removing 3:
 			6
 				5
 					4
-						3
-							2
-								1
-									0
 
 Removing 4:
 9
@@ -825,75 +464,30 @@ Removing 4:
 		7
 			6
 				5
-					4
-						3
-							2
-								1
-									0
 
 Removing 5:
 9
 	8
 		7
 			6
-				5
-					4
-						3
-							2
-								1
-									0
 
 Removing 6:
 9
 	8
 		7
-			6
-				5
-					4
-						3
-							2
-								1
-									0
 
 Removing 7:
 9
 	8
-		7
-			6
-				5
-					4
-						3
-							2
-								1
-									0
 
 Removing 8:
 9
-	8
-		7
-			6
-				5
-					4
-						3
-							2
-								1
-									0
 
 Removing 9:
-9
-	8
-		7
-			6
-				5
-					4
-						3
-							2
-								1
-									0
        Preorder: M F C A B D E J H G I K L T P N O R Q S W U V Y X Z 
         Inorder: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 
-      Postorder: A B C D E F G H I J K L N O P Q R S T U V W X Y Z M 
-Reverse Inorder: 
+      Postorder: B A E D C G I H L K J F O N Q S R P V U X Z Y W T M 
+Reverse Inorder: Z Y X W V U T S R Q P O N M L K J I H G F E D C B A 
 				Z
 			Y
 				X
@@ -922,7 +516,6 @@ M
 			A
 
 Removing Z:
-				Z
 			Y
 				X
 		W
@@ -950,9 +543,7 @@ M
 			A
 
 Removing X:
-				Z
 			Y
-				X
 		W
 				V
 			U
@@ -978,9 +569,6 @@ M
 			A
 
 Removing Y:
-				Z
-			Y
-				X
 		W
 				V
 			U
@@ -1006,11 +594,7 @@ M
 			A
 
 Removing V:
-				Z
-			Y
-				X
 		W
-				V
 			U
 	T
 				S
@@ -1034,12 +618,7 @@ M
 			A
 
 Removing U:
-				Z
-			Y
-				X
 		W
-				V
-			U
 	T
 				S
 			R
@@ -1062,12 +641,6 @@ M
 			A
 
 Removing W:
-				Z
-			Y
-				X
-		W
-				V
-			U
 	T
 				S
 			R
@@ -1090,16 +663,9 @@ M
 			A
 
 Removing Q:
-				Z
-			Y
-				X
-		W
-				V
-			U
 	T
 				S
 			R
-				Q
 		P
 				O
 			N
@@ -1118,16 +684,8 @@ M
 			A
 
 Removing S:
-				Z
-			Y
-				X
-		W
-				V
-			U
 	T
-				S
 			R
-				Q
 		P
 				O
 			N
@@ -1146,16 +704,7 @@ M
 			A
 
 Removing R:
-				Z
-			Y
-				X
-		W
-				V
-			U
 	T
-				S
-			R
-				Q
 		P
 				O
 			N
@@ -1174,18 +723,8 @@ M
 			A
 
 Removing O:
-				Z
-			Y
-				X
-		W
-				V
-			U
 	T
-				S
-			R
-				Q
 		P
-				O
 			N
 M
 				L
@@ -1202,19 +741,8 @@ M
 			A
 
 Removing N:
-				Z
-			Y
-				X
-		W
-				V
-			U
 	T
-				S
-			R
-				Q
 		P
-				O
-			N
 M
 				L
 			K
@@ -1230,19 +758,7 @@ M
 			A
 
 Removing P:
-				Z
-			Y
-				X
-		W
-				V
-			U
 	T
-				S
-			R
-				Q
-		P
-				O
-			N
 M
 				L
 			K
@@ -1258,19 +774,6 @@ M
 			A
 
 Removing T:
-				Z
-			Y
-				X
-		W
-				V
-			U
-	T
-				S
-			R
-				Q
-		P
-				O
-			N
 M
 				L
 			K
@@ -1286,21 +789,7 @@ M
 			A
 
 Removing L:
-				Z
-			Y
-				X
-		W
-				V
-			U
-	T
-				S
-			R
-				Q
-		P
-				O
-			N
 M
-				L
 			K
 		J
 				I
@@ -1314,22 +803,7 @@ M
 			A
 
 Removing K:
-				Z
-			Y
-				X
-		W
-				V
-			U
-	T
-				S
-			R
-				Q
-		P
-				O
-			N
 M
-				L
-			K
 		J
 				I
 			H
@@ -1342,24 +816,8 @@ M
 			A
 
 Removing I:
-				Z
-			Y
-				X
-		W
-				V
-			U
-	T
-				S
-			R
-				Q
-		P
-				O
-			N
 M
-				L
-			K
 		J
-				I
 			H
 				G
 	F
@@ -1370,26 +828,9 @@ M
 			A
 
 Removing G:
-				Z
-			Y
-				X
-		W
-				V
-			U
-	T
-				S
-			R
-				Q
-		P
-				O
-			N
 M
-				L
-			K
 		J
-				I
 			H
-				G
 	F
 				E
 			D
@@ -1398,26 +839,8 @@ M
 			A
 
 Removing H:
-				Z
-			Y
-				X
-		W
-				V
-			U
-	T
-				S
-			R
-				Q
-		P
-				O
-			N
 M
-				L
-			K
 		J
-				I
-			H
-				G
 	F
 				E
 			D
@@ -1426,576 +849,185 @@ M
 			A
 
 Removing E:
-				Z
-			Y
-				X
-		W
-				V
-			U
-	T
-				S
-			R
-				Q
-		P
-				O
-			N
 M
-				L
-			K
 		J
-				I
-			H
-				G
 	F
-				E
 			D
 		C
 				B
 			A
 
 Removing D:
-				Z
-			Y
-				X
-		W
-				V
-			U
-	T
-				S
-			R
-				Q
-		P
-				O
-			N
 M
-				L
-			K
 		J
-				I
-			H
-				G
 	F
-				E
-			D
 		C
 				B
 			A
 
 Removing B:
-				Z
-			Y
-				X
-		W
-				V
-			U
-	T
-				S
-			R
-				Q
-		P
-				O
-			N
 M
-				L
-			K
 		J
-				I
-			H
-				G
 	F
-				E
-			D
 		C
-				B
 			A
 
 Removing A:
-				Z
-			Y
-				X
-		W
-				V
-			U
-	T
-				S
-			R
-				Q
-		P
-				O
-			N
 M
-				L
-			K
 		J
-				I
-			H
-				G
 	F
-				E
-			D
 		C
-				B
-			A
 
 Removing J:
-				Z
-			Y
-				X
-		W
-				V
-			U
-	T
-				S
-			R
-				Q
-		P
-				O
-			N
 M
-				L
-			K
-		J
-				I
-			H
-				G
 	F
-				E
-			D
 		C
-				B
-			A
 
 Removing C:
-				Z
-			Y
-				X
-		W
-				V
-			U
-	T
-				S
-			R
-				Q
-		P
-				O
-			N
 M
-				L
-			K
-		J
-				I
-			H
-				G
 	F
-				E
-			D
-		C
-				B
-			A
 
 Removing F:
-				Z
-			Y
-				X
-		W
-				V
-			U
-	T
-				S
-			R
-				Q
-		P
-				O
-			N
 M
-				L
-			K
-		J
-				I
-			H
-				G
-	F
-				E
-			D
-		C
-				B
-			A
 
 Removing M:
-				Z
-			Y
-				X
-		W
-				V
-			U
-	T
-				S
-			R
-				Q
-		P
-				O
-			N
-M
-				L
-			K
-		J
-				I
-			H
-				G
-	F
-				E
-			D
-		C
-				B
-			A
-       Preorder: S P H C A A E I H N R T S S Y W T 
-        Inorder: A A C E H H I N P R S S S T T W Y 
-      Postorder: A A C E H H I N P R S S T T W Y S 
-Reverse Inorder: 
+       Preorder: S P H C A E I N R T Y W 
+        Inorder: A C E H I N P R S T W Y 
+      Postorder: A E C N I H R P W Y T S 
+Reverse Inorder: Y W T S R P N I H E C A 
 		Y
 			W
-				T
 	T
-			S
-		S
 S
 		R
 	P
 				N
 			I
-				H
 		H
 				E
 			C
-					A
 				A
 
 Removing T:
-		Y
-			W
-				T
-	T
-			S
-		S
+	Y
+		W
 S
 		R
 	P
 				N
 			I
-				H
 		H
 				E
 			C
-					A
 				A
 
 Removing A:
-		Y
-			W
-				T
-	T
-			S
-		S
+	Y
+		W
 S
 		R
 	P
 				N
 			I
-				H
 		H
 				E
 			C
-					A
-				A
 
 Removing H:
-		Y
-			W
-				T
-	T
-			S
-		S
+	Y
+		W
 S
 		R
 	P
-				N
-			I
-				H
-		H
+			N
+		I
 				E
 			C
-					A
-				A
 
 Removing W:
-		Y
-			W
-				T
-	T
-			S
-		S
+	Y
 S
 		R
 	P
-				N
-			I
-				H
-		H
+			N
+		I
 				E
 			C
-					A
-				A
 
 Removing S:
-		Y
-			W
-				T
-	T
-			S
-		S
-S
+Y
 		R
 	P
-				N
-			I
-				H
-		H
+			N
+		I
 				E
 			C
-					A
-				A
 
 Removing Y:
-		Y
-			W
-				T
-	T
-			S
-		S
-S
-		R
-	P
-				N
-			I
-				H
-		H
-				E
-			C
-					A
-				A
+	R
+P
+		N
+	I
+			E
+		C
 
 Removing A:
-		Y
-			W
-				T
-	T
-			S
-		S
-S
-		R
-	P
-				N
-			I
-				H
-		H
-				E
-			C
-					A
-				A
+	R
+P
+		N
+	I
+			E
+		C
 
 Removing S:
-		Y
-			W
-				T
-	T
-			S
-		S
-S
-		R
-	P
-				N
-			I
-				H
-		H
-				E
-			C
-					A
-				A
+	R
+P
+		N
+	I
+			E
+		C
 
 Removing R:
-		Y
-			W
-				T
-	T
-			S
-		S
-S
-		R
-	P
-				N
-			I
-				H
-		H
-				E
-			C
-					A
-				A
+P
+		N
+	I
+			E
+		C
 
 Removing E:
-		Y
-			W
-				T
-	T
-			S
-		S
-S
-		R
-	P
-				N
-			I
-				H
-		H
-				E
-			C
-					A
-				A
+P
+		N
+	I
+		C
 
 Removing T:
-		Y
-			W
-				T
-	T
-			S
-		S
-S
-		R
-	P
-				N
-			I
-				H
-		H
-				E
-			C
-					A
-				A
+P
+		N
+	I
+		C
 
 Removing C:
-		Y
-			W
-				T
-	T
-			S
-		S
-S
-		R
-	P
-				N
-			I
-				H
-		H
-				E
-			C
-					A
-				A
+P
+		N
+	I
 
 Removing N:
-		Y
-			W
-				T
-	T
-			S
-		S
-S
-		R
-	P
-				N
-			I
-				H
-		H
-				E
-			C
-					A
-				A
+P
+	I
 
 Removing I:
-		Y
-			W
-				T
-	T
-			S
-		S
-S
-		R
-	P
-				N
-			I
-				H
-		H
-				E
-			C
-					A
-				A
+P
 
 Removing H:
-		Y
-			W
-				T
-	T
-			S
-		S
-S
-		R
-	P
-				N
-			I
-				H
-		H
-				E
-			C
-					A
-				A
+P
 
 Removing P:
-		Y
-			W
-				T
-	T
-			S
-		S
-S
-		R
-	P
-				N
-			I
-				H
-		H
-				E
-			C
-					A
-				A
 
 Removing S:
-		Y
-			W
-				T
-	T
-			S
-		S
-S
-		R
-	P
-				N
-			I
-				H
-		H
-				E
-			C
-					A
-				A
        Preorder: 5 2 1 4 3 7 6 9 8 
         Inorder: 1 2 3 4 5 6 7 8 9 
-      Postorder: 1 2 3 4 6 7 8 9 5 
-Reverse Inorder: 
+      Postorder: 1 3 4 2 6 8 9 7 5 
+Reverse Inorder: 9 8 7 6 5 4 3 2 1 
 		9
 			8
 	7
@@ -2008,7 +1040,6 @@ Reverse Inorder:
 
 Removing 8:
 		9
-			8
 	7
 		6
 5
@@ -2019,9 +1050,7 @@ Removing 8:
 
 Removing 6:
 		9
-			8
 	7
-		6
 5
 		4
 			3
@@ -2029,10 +1058,7 @@ Removing 6:
 		1
 
 Removing 9:
-		9
-			8
 	7
-		6
 5
 		4
 			3
@@ -2040,10 +1066,6 @@ Removing 9:
 		1
 
 Removing 7:
-		9
-			8
-	7
-		6
 5
 		4
 			3
@@ -2051,63 +1073,28 @@ Removing 7:
 		1
 
 Removing 3:
-		9
-			8
-	7
-		6
 5
 		4
-			3
 	2
 		1
 
 Removing 1:
-		9
-			8
-	7
-		6
 5
 		4
-			3
 	2
-		1
 
 Removing 4:
-		9
-			8
-	7
-		6
 5
-		4
-			3
 	2
-		1
 
 Removing 2:
-		9
-			8
-	7
-		6
 5
-		4
-			3
-	2
-		1
 
 Removing 5:
-		9
-			8
-	7
-		6
-5
-		4
-			3
-	2
-		1
        Preorder: M A L T S O 
         Inorder: A L M O S T 
-      Postorder: A L O S T M 
-Reverse Inorder: 
+      Postorder: L A O S T M 
+Reverse Inorder: T S O M L A 
 	T
 		S
 			O
@@ -2118,190 +1105,106 @@ M
 Removing O:
 	T
 		S
-			O
 M
 		L
 	A
 
 Removing S:
 	T
-		S
-			O
 M
 		L
 	A
 
 Removing L:
 	T
-		S
-			O
 M
-		L
 	A
 
 Removing T:
-	T
-		S
-			O
 M
-		L
 	A
 
 Removing A:
-	T
-		S
-			O
 M
-		L
-	A
 
 Removing M:
-	T
-		S
-			O
-M
-		L
-	A
-       Preorder: F E T R F O 
-        Inorder: E F F O R T 
-      Postorder: E F O R T F 
-Reverse Inorder: 
+       Preorder: F E T R O 
+        Inorder: E F O R T 
+      Postorder: E O R T F 
+Reverse Inorder: T R O F E 
 	T
 		R
-				O
-			F
+			O
 F
 	E
 
 Removing O:
 	T
 		R
-				O
-			F
 F
 	E
 
 Removing F:
 	T
-		R
-				O
-			F
-F
+R
 	E
 
 Removing R:
-	T
-		R
-				O
-			F
-F
+T
 	E
 
 Removing E:
-	T
-		R
-				O
-			F
-F
-	E
+T
 
 Removing T:
-	T
-		R
-				O
-			F
-F
-	E
 
 Removing F:
-	T
-		R
-				O
-			F
-F
-	E
-       Preorder: E B Y L E I F 
-        Inorder: B E E F I L Y 
-      Postorder: B E F I L Y E 
-Reverse Inorder: 
+       Preorder: E B Y L I F 
+        Inorder: B E F I L Y 
+      Postorder: B F I L Y E 
+Reverse Inorder: Y L I F E B 
 	Y
 		L
-				I
-					F
-			E
+			I
+				F
 E
 	B
 
 Removing F:
 	Y
 		L
-				I
-					F
-			E
+			I
 E
 	B
 
 Removing I:
 	Y
 		L
-				I
-					F
-			E
 E
 	B
 
 Removing E:
 	Y
-		L
-				I
-					F
-			E
-E
+L
 	B
 
 Removing L:
-	Y
-		L
-				I
-					F
-			E
-E
+Y
 	B
 
 Removing B:
-	Y
-		L
-				I
-					F
-			E
-E
-	B
+Y
 
 Removing Y:
-	Y
-		L
-				I
-					F
-			E
-E
-	B
 
 Removing E:
-	Y
-		L
-				I
-					F
-			E
-E
-	B
-       Preorder: L B I Y W O L 
-        Inorder: B I L L O W Y 
-      Postorder: B I L O W Y L 
-Reverse Inorder: 
+       Preorder: L B I Y W O 
+        Inorder: B I L O W Y 
+      Postorder: I B O W Y L 
+Reverse Inorder: Y W O L I B 
 	Y
 		W
 			O
-				L
 L
 		I
 	B
@@ -2309,69 +1212,35 @@ L
 Removing L:
 	Y
 		W
-			O
-				L
-L
+O
 		I
 	B
 
 Removing O:
 	Y
-		W
-			O
-				L
-L
+W
 		I
 	B
 
 Removing I:
 	Y
-		W
-			O
-				L
-L
-		I
+W
 	B
 
 Removing W:
-	Y
-		W
-			O
-				L
-L
-		I
+Y
 	B
 
 Removing B:
-	Y
-		W
-			O
-				L
-L
-		I
-	B
+Y
 
 Removing Y:
-	Y
-		W
-			O
-				L
-L
-		I
-	B
 
 Removing L:
-	Y
-		W
-			O
-				L
-L
-		I
-	B
        Preorder: S G H O Y T 
         Inorder: G H O S T Y 
-      Postorder: G H O T Y S 
-Reverse Inorder: 
+      Postorder: O H G T Y S 
+Reverse Inorder: Y T S O H G 
 	Y
 		T
 S
@@ -2383,7 +1252,6 @@ Removing O:
 	Y
 		T
 S
-			O
 		H
 	G
 
@@ -2391,249 +1259,129 @@ Removing H:
 	Y
 		T
 S
-			O
-		H
 	G
 
 Removing T:
 	Y
-		T
 S
-			O
-		H
 	G
 
 Removing G:
 	Y
-		T
 S
-			O
-		H
-	G
 
 Removing Y:
-	Y
-		T
 S
-			O
-		H
-	G
 
 Removing S:
-	Y
-		T
-S
-			O
-		H
-	G
-       Preorder: F E D E P N O O S 
-        Inorder: D E E F N O O P S 
-      Postorder: D E E N O O P S F 
-Reverse Inorder: 
+       Preorder: F E D P N O S 
+        Inorder: D E F N O P S 
+      Postorder: D E O N S P F 
+Reverse Inorder: S P O N F E D 
 		S
 	P
-				O
 			O
 		N
 F
-		E
 	E
 		D
 
 Removing O:
 		S
 	P
-				O
-			O
 		N
 F
-		E
 	E
 		D
 
 Removing S:
-		S
 	P
-				O
-			O
 		N
 F
-		E
 	E
 		D
 
 Removing E:
-		S
 	P
-				O
-			O
 		N
 F
-		E
-	E
-		D
+	D
 
 Removing D:
-		S
 	P
-				O
-			O
 		N
 F
-		E
-	E
-		D
 
 Removing E:
-		S
 	P
-				O
-			O
 		N
 F
-		E
-	E
-		D
 
 Removing O:
-		S
 	P
-				O
-			O
 		N
 F
-		E
-	E
-		D
 
 Removing N:
-		S
 	P
-				O
-			O
-		N
 F
-		E
-	E
-		D
 
 Removing P:
-		S
-	P
-				O
-			O
-		N
 F
-		E
-	E
-		D
 
 Removing F:
-		S
-	P
-				O
+       Preorder: L D E I T R O 
+        Inorder: D E I L O R T 
+      Postorder: I E D O R T L 
+Reverse Inorder: T R O L I E D 
+	T
+		R
 			O
-		N
-F
-		E
-	E
-		D
-       Preorder: L D E I L T R O 
-        Inorder: D E I L L O R T 
-      Postorder: D E I L O R T L 
-Reverse Inorder: 
-		T
-			R
-				O
-	L
 L
 			I
 		E
 	D
 
 Removing I:
-		T
-			R
-				O
-	L
+	T
+		R
+			O
 L
-			I
 		E
 	D
 
 Removing O:
-		T
-			R
-				O
-	L
+	T
+		R
 L
-			I
 		E
 	D
 
 Removing E:
-		T
-			R
-				O
-	L
+	T
+		R
 L
-			I
-		E
 	D
 
 Removing R:
-		T
-			R
-				O
-	L
+	T
 L
-			I
-		E
 	D
 
 Removing D:
-		T
-			R
-				O
-	L
+	T
 L
-			I
-		E
-	D
 
 Removing T:
-		T
-			R
-				O
-	L
 L
-			I
-		E
-	D
 
 Removing L:
-		T
-			R
-				O
-	L
-L
-			I
-		E
-	D
 
 Removing L:
-		T
-			R
-				O
-	L
-L
-			I
-		E
-	D
        Preorder: 7 3 1 2 4 9 8 A B 
         Inorder: 1 2 3 4 7 8 9 A B 
-      Postorder: 1 2 3 4 8 9 A B 7 
-Reverse Inorder: 
+      Postorder: 2 1 4 3 8 B A 9 7 
+Reverse Inorder: B A 9 8 7 4 3 2 1 
 			B
 		A
 	9
@@ -2652,7 +1400,6 @@ Removing 2:
 7
 		4
 	3
-			2
 		1
 
 Removing 1:
@@ -2663,82 +1410,38 @@ Removing 1:
 7
 		4
 	3
-			2
-		1
 
 Removing 8:
 			B
 		A
 	9
-		8
 7
 		4
 	3
-			2
-		1
 
 Removing B:
-			B
 		A
 	9
-		8
 7
 		4
 	3
-			2
-		1
 
 Removing A:
-			B
-		A
 	9
-		8
 7
 		4
 	3
-			2
-		1
 
 Removing 9:
-			B
-		A
-	9
-		8
 7
 		4
 	3
-			2
-		1
 
 Removing 4:
-			B
-		A
-	9
-		8
 7
-		4
 	3
-			2
-		1
 
 Removing 3:
-			B
-		A
-	9
-		8
 7
-		4
-	3
-			2
-		1
 
 Removing 7:
-			B
-		A
-	9
-		8
-7
-		4
-	3
-			2
-		1

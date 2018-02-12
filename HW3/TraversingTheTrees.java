@@ -47,13 +47,18 @@ public class TraversingTheTrees {
 	
 	public static void Postorder(TreeNode tn) {
 		if (tn != null) {
-			Inorder(tn.getLeft());
-			Inorder(tn.getRight());
+			Postorder(tn.getLeft());
+			Postorder(tn.getRight());
 			System.out.print(tn.getData() + " ");
 		}
 	}
 
 	public static void RInorder(TreeNode tn) {
+		if (tn != null) {
+			RInorder(tn.getRight());
+			System.out.print(tn.getData() + " ");
+			RInorder(tn.getLeft());
+		}			
 	}
 	
 	public static void printTree(TreeNode tn, int lev) {
